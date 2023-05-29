@@ -50,7 +50,8 @@ homing_speed: 10
 
 [tmc2209 stepper_z]
 uart_pin: z0_uart_pin
-run_current: 1.6
+run_current: 0.580
+hold_current: 0.500
 driver_TBL: 2
 driver_TOFF: 3
 driver_HEND: 0
@@ -66,7 +67,8 @@ microsteps: 64
 
 [tmc2209 stepper_z1]
 uart_pin: z1_uart_pin
-run_current: 1.6
+run_current: 0.580
+hold_current: 0.500
 driver_TBL: 2
 driver_TOFF: 3
 driver_HEND: 0
