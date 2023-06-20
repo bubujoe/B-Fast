@@ -1,0 +1,7 @@
+[update_manager BFast]
+type: git_repo
+path: ~/printer_data/config/BFast/
+primary_branch: v1.0
+origin: https://github.com/bubujoe/B-Fast/tree/v1.0.git
+install_script: bfast-install.sh
+managed_services: klipper
